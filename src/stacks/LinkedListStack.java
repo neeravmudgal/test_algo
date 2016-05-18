@@ -6,7 +6,7 @@ private class Node{
 	String s;
 	Node next;
 }
-public LinkedListStack(){
+public LinkedListStack(){ 
 }
 @Override
 public void push(String input) {
