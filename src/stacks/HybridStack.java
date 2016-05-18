@@ -1,6 +1,6 @@
 package stacks;
 
-
+//best in two
 public class HybridStack implements Stack{
 	private Chunk head;
 	private int cs;
