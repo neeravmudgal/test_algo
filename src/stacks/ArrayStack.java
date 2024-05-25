@@ -20,7 +20,7 @@ public class ArrayStack implements Stack{
 	private void resize(int newLength){
 		//System.out.println("RESIZING : " + newLength);
 		String[] copy =new String[newLength];
-		for(int i =0;i< N;i++){
+		for(int i =0;i< N;i++){ 
 			copy[i] = s[i];
 		}
 		s=copy;
